@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.action-bar {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  top: 0;
+  padding: 10px;
+  position: sticky;
+}
+button {
+  background-color: gainsboro;
+  border: none;
+}
+.action-bar .menu-button {
+  display: flex;
+  justify-content: space-between;
+  flex: 50;
+  background-color: azure;
+}
+.action-bar .top-message {
+  flex: 10;
+  background-color: #0002;
+  padding: 0;
+}
+.action-bar .login-button {
+  background-color: chartreuse;
+  display: block;
+  margin-right: 0;
+}
+
+.main-view {
+  color: black;
+  background-color: #0001;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+/* Main View */
+.main-view .menu {
+  background-color: gray;
+  font-size: 1em;
+  padding: 10px;
+  margin: 0;
+}
+
+.main-view .menu button {
+  margin: 0px 10px;
+}
+
+.main-view .content {
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+footer {
+  background-color: yellowgreen;
+  padding: 10px;
+  font-size: 1.2em;
+}
